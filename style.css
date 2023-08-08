@@ -1,0 +1,462 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+}
+h3{
+    margin-right: 65%;
+    font-size: 20px;
+    color: red;
+    font-weight:bolder;
+}
+h3:hover{
+    text-shadow: 5px 5px 5px red;
+}
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.upper{
+    padding: 8px;
+    font-size: 16px;
+}
+.l{
+    color: blue;
+}
+.up{
+    background-color: purple;
+    color: white;
+    padding: 5px;
+    width: 60px;
+    border-radius: 501px;
+}
+.upper:hover{
+    background-color: purple;
+    border-radius: 50px;
+    color: white;
+}
+.page-1{
+    background-color: rgba(255, 255, 0, 0.587);
+    width: 100%;
+    height: 700px;
+}
+.boy{
+    margin-left: 51%;
+    margin-top: 11%;
+}
+.boy:hover{
+    box-shadow: 5px 5px 25px blue;
+    border-radius: 50px 50px 50px 50px;
+}
+.head-1{
+    position: absolute;
+    margin-top: -30%;
+    margin-left: 8%;
+    font-size: 80px;
+}
+.sign{
+    position: absolute;
+    margin-top: 30%;
+    margin-left: -83%;
+    padding: 20px;
+    border-radius: 15px 15px 15px 15px;
+    font-size: 20px;
+    background-color: purple;
+    color: white;
+
+}
+.sign:hover{
+    box-shadow: 5px 5px 20px blue;
+}
+.demo{
+    position: absolute;
+    margin-top: 30%;
+    margin-left: -70%;
+    padding: 20px;
+    border-radius: 15px 15px 15px 15px;
+    font-size: 20px;
+    background-color: purple;
+    color: white;
+}
+.demo:hover{
+    box-shadow: 5px 5px 20px blue;
+}
+
+.page-2{
+    background-color: black;
+    width: 100%;
+    height: 400px;
+}
+.head-2{
+    color:white;
+    text-align: center;
+    padding: 50px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.com{
+    color: white;
+    background-color: none;
+    list-style-type: none;
+    font-size: 30px;
+    font-weight: bolder
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.list1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 80px;
+}
+.page-3{
+    width: 100%;
+    height: 700px;
+    background-color:rgb(192, 242, 242);
+}
+.laptop{
+    padding: 50px;
+    width: 50%;
+    height: 600px;
+}
+.head-3{
+    position: absolute;
+    margin-left: 50%;
+    margin-top: -30%;
+    font-weight: bolder;
+    font-size: 70px;
+}
+.para-2{
+    position:absolute;
+    margin-left: 50%;
+    margin-top: -18%;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.para-3{
+    position:absolute;
+    margin-left: 50%;
+    margin-top: -12%;
+    font-weight: bold;
+    font-size: 25px;  
+}
+.para-4{
+    position:absolute;
+    margin-left: 50%;
+    margin-top: -10%;
+    font-weight: bold;
+    font-size: 25px;  
+}
+.para-5{
+    position:absolute;
+    margin-left: 50%;
+    margin-top: -8%;
+    font-weight: bold;
+    font-size: 25px;  
+}
+.para-6{
+    position:absolute;
+    margin-left: 50%;
+    margin-top: -6%;
+    font-weight: bold;
+    font-size: 25px;  
+}
+.para-7{
+    position:absolute;
+    margin-left: 50%;
+    margin-top: -4%;
+    font-weight: bold;
+    font-size: 25px;  
+}
+.today{
+    padding: 20px;
+    position: absolute;
+    margin-top: 39%;
+    width: 15%;
+    font-size: 20px;
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px 20px 20px 20px;
+}
+.today:hover{
+    box-shadow: 5px 5px 15px blue;
+}
+.para-8{
+    position: absolute;
+    margin-top: -16%;
+    margin-left: 23%;
+    background-color: purple;
+    color: white;
+    font-size: 20px;
+    padding: 8px;
+}
+.para-8:hover{
+    box-shadow: 2px 2px 12px blue;
+}
+.page-4{
+    width: 100%;
+    height: 800px;
+    background-color: wheat;
+}
+.head-4{
+    padding: 50px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.course{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.module{
+    background-color: purple;
+    color: white;
+    width: 20%;
+    height: 200px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 5px 5px 20px yellow;
+}
+.module:hover{
+    background-color: rgba(255, 255, 0, 0.587);
+    color: black;
+    box-shadow: 5px 5px 20px blue;
+}
+.head-5{
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 25px;
+    text-align: center;
+}
+.p1{
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sec{
+    margin-top: 100px;
+    background-color: purple;
+    color: white;
+    width: 20%;
+    height: 200px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 5px 5px 20px yellow;
+}
+.sec:hover{
+    background-color: rgba(255, 255, 0, 0.587);
+    color: black;
+    box-shadow: 5px 5px 20px blue;
+}
+.head-7{
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 25px;
+    text-align: center;
+}
+.p2{ 
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+}
+.page-5{
+    width: 100%;
+    height: 700px;
+    background-color: rgba(255, 255, 0, 0.587);
+}
+.head-8{
+    position: absolute;
+    padding: 150px;
+    margin-left: 5%;
+    font-size: 50px;
+}
+.name{
+   position: absolute;
+   margin-top: 15%;
+   padding: 15px;
+   width: 25%;
+   margin-left: 10%;
+}
+.mobile{
+    position: absolute;
+   margin-top: 20%;
+   padding: 15px;
+   width: 25%;
+   margin-left: 10%;
+}
+.id{
+    position: absolute;
+   margin-top: 25%;
+   padding: 15px;
+   width: 25%;
+   margin-left: 10%;
+}
+.message{
+    position: absolute;
+   margin-top: 30%;
+   padding: 50px;
+   width: 25%;
+   margin-left: 10%;
+   text-align: left;
+}
+.submit{
+    position: absolute;
+   margin-top: 39%;
+   padding: 15px;
+   width: 10%;
+   margin-left: 25%;
+   background-color: purple;
+   color: white;
+   font-size: 20px;
+   border-radius: 20px 20px 20px 20px;
+}
+.img1{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 5%;
+    width:50%;
+}
+.p3{
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 61%;
+    color:white;
+    background-color: purple;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.p3:hover{
+    box-shadow: 2px 2px 12px blue;
+}
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+.head-9{
+    position: absolute;
+    color: red;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+i{
+    font-size: 50px;
+    color: blue;
+}
+.ri-linkedin-fill{
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 16%;
+    background-color: blue;
+    color: white;
+}
+.ri-linkedin-fill:hover{
+    background-color: white;
+    color: blue;
+    box-shadow: 5px 5px 20px red;
+}
+.ri-github-fill{
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 16%;
+    background-color: white;
+    color: black;
+}
+.ri-github-fill:hover{
+    background-color: blue;
+    color: white;
+    box-shadow:5px 5px 20px red; 
+}
+.ri-user-fill{
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 16%;
+    color: crimson;
+    background-color: white;
+}
+.ri-user-fill:hover{
+    background-color: crimson;
+    color: white;
+    box-shadow:5px 5px 20px red; 
+}
+.p4{
+    position: absolute;
+    color: white;
+    margin-top: 9%;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-left: 10%;
+}
+.head1{
+    position: absolute;
+    margin-top: 5%;
+    color: white;
+    margin-left: 60%;
+}
+.phone{
+    position: absolute;
+    margin-top: 10%;
+    color: white;
+    margin-left: 60%;
+    font-size: 20px;
+}
+.email{
+    position: absolute;
+    margin-top: 13%;
+    color: white;
+    margin-left: 60%;
+    font-size: 20px;
+}
+.linked a{
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 60%;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.foot4{
+    position: absolute;
+    margin-top: 23%;
+    text-align: center;
+    color: white;
+    margin-left: 30%;
+    font-size: 20px;
+    background-color: grey;
+    padding: 10px;
+}
